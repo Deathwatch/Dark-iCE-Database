@@ -1,0 +1,1 @@
+alter table account ADD COLUMN trial_client int(5) default '0' AFTER locale;

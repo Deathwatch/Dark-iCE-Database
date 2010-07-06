@@ -1,0 +1,62 @@
+﻿╔═════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ iNFO:                                                                                           ║
+╟─────────────────────────────────────────────────────────────────────────────────────────────────╢
+║         This file holds the revisions of Project Dark-iCE and comments of each of them.         ║
+║         Each revision comes with a comment which explains what was added/removed/fixed.         ║
+╠═════════════════════════════════════════════════════════════════════════════════════════════════╣
+║ REViSiON TABLE:                                                                                 ║
+║                                                                                                 ║
+║                  ┌───────────┬────────────┬───────────┬──────────┬────────────┐                 ║
+║                  │ Database: │ Characters │   Realm   │  MaNGOS  │ ScriptDev2 │                 ║
+║                  ├───────────┼────────────┼───────────┼──────────┼────────────┤                 ║
+║                  │ Revision: │   9849_01  │  9748_01  │  9899_01 │    9832+   │                 ║
+║                  └───────────┴────────────┴───────────┴──────────┴────────────┘                 ║
+╠═════════════════════════════════════════════════════════════════════════════════════════════════╣
+║ COMMiTS:                                                                                        ║
+║                                                                                                 ║
+║ ┌───────────┬───────────────┬───────────────────────────────────────────────────┬─────────────┐ ║
+║ │ Revision: │ Name:         │ Comment:                                          │ Commit By:  │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 1]  │ First Release │ Nothing to see here. The old database is gone.    │ Darkiss     │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 2]  │ YTDB+UDB Merge│ Nothing to see here. The old database is gone.    │ Darkrulerz  │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 3]  │ UDB Updates   │ Nothing to see here. The old database is gone.    │ Darkiss     │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 4]  │ Switch to YTDB│ Database is now based on YTDB because it features │ Darkiss     │ ║
+║ │           │               │ a lot more detailed content. Fixes include YTDB   │             │ ║
+║ │           │               │ and UDB queries from their official repositories  │             │ ║
+║ │           │               │ and forums. Includes UDB389 and YTDB541 fixes.    │             │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 5]  │ YTDB Updates  │ Includes Dual-Spec, Vehicle Patch and update to   │ Darkrulerz  │ ║
+║ │           │               │ the newest MaNGOS revision.                       │             │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 6]  │ YTDB Updates  │ Nothing to see here. The old database is gone.    │ Darkiss     │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 7]  │ YTDB Updates  │ Includes minor fixes from our forums.             │ Singlem     │ ║
+║ │           │               │ - Full database for MaNGOS Rev 9768_01 added.     │             │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 8]  │ YTDB Updates  │ Includes minor fixes from our forums.             │ Singlem and │ ║
+║ │           │               │ - Includes quest fixes and loot fixes.            │FallenAngelIX│ ║
+║ │           │               │ - Added ScriptDev2 updates.                       │             │ ║
+║ ├───────────┼───────────────┼───────────────────────────────────────────────────┼─────────────┤ ║
+║ │  [Rev 9]  │ YTDB Updates  │ Includes minor fixes from our forums.             │ Whole Team  │ ║
+║ │           │               │ - Updated Full DB SQL's.                          │             │ ║
+║ │           │               │ - Converted IceCrown Citadel Russian texts to     │             │ ║
+║ │           │               │   proper English.                                 │             │ ║
+║ │           │               │ - Cleaned up the database and logs.               │             │ ║
+║ │           │               │ - Includes fixes for Vehicles and their abilities.│             │ ║
+║ │           │               │ - Ulduar trash, boss and rare loot fixes as well  │             │ ║
+║ │           │               │   as many bug fixes. (Still a work in progress)   │             │ ║
+║ │           │               │ - Start up error fixes.                           │             │ ║
+║ │           │               │ - Contains various bug fixes and clean ups.       │             │ ║
+║ │           │               │ - Some structure changes have been added aswell.  │             │ ║
+║ └───────────┴───────────────┴───────────────────────────────────────────────────┴─────────────┘ ║
+╠═════════════════════════════════════════════════════════════════════════════════════════════════╣
+║ NOTES:                                                                                          ║
+╟─────────────────────────────────────────────────────────────────────────────────────────────────╢
+║ This text documment is still a work in progress as updates are added each day.                  ║
+║ Found a bug ? Want to suggest something ? Visit our forums at http://projectdarkice.clanice.com ║
+╟─────────────────────────────────────────────────────────────────────────────────────────────────╢
+║                     Copyright © 2010 Project Dark-iCE. All Rights Reserved.                     ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════╝
