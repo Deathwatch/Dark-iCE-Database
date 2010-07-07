@@ -9,4 +9,12 @@ INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entr
 DELETE FROM `gameobject_template` WHERE (`entry`=190767);
 INSERT INTO `gameobject_template` (`entry`, `type`, `displayId`, `name`, `IconName`, `castBarCaption`, `unk1`, `faction`, `flags`, `size`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `data0`, `data1`, `data2`, `data3`, `data4`, `data5`, `data6`, `data7`, `data8`, `data9`, `data10`, `data11`, `data12`, `data13`, `data14`, `data15`, `data16`, `data17`, `data18`, `data19`, `data20`, `data21`, `data22`, `data23`, `mingold`, `maxgold`, `ScriptName`) VALUES (190767, 22, 7997, 'Inconspicuous Mine Car', '', '', '', 0, 6553600, 0.65, 0, 0, 0, 0, 0, 0, 52463, 12701, 190767, 1000, 0, 0, 0, 0, 0, 0, 52463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'minecar');
 
-#
+#fix for high Inq. valroth
+DELETE FROM `creature_loot_template` WHERE (`entry`=29001);
+INSERT INTO `creature_loot_template` VALUES 
+(29001, 39510, 100, 0, 1, 1, 0, 0, 0);
+
+#fix for xp in Dk quest 12701
+
+UPDATE `creature_template` SET `flags_extra` = 64 WHERE `entry` = 4298;
+
