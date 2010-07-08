@@ -67,3 +67,21 @@ INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entr
 
 DELETE FROM `creature_template` WHERE (`entry`=38508);
 INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `modelid_A`, `modelid_A2`, `modelid_H`, `modelid_H2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `minhealth`, `maxhealth`, `minmana`, `maxmana`, `armor`, `faction_A`, `faction_H`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `mindmg`, `maxdmg`, `dmgschool`, `attackpower`, `dmg_multiplier`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `dynamicflags`, `family`, `trainer_type`, `trainer_spell`, `trainer_class`, `trainer_race`, `minrangedmg`, `maxrangedmg`, `rangedattackpower`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `resistance1`, `resistance2`, `resistance3`, `resistance4`, `resistance5`, `resistance6`, `spell1`, `spell2`, `spell3`, `spell4`, `PetSpellDataId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `InhabitType`, `unk16`, `unk17`, `RacialLeader`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `movementId`, `RegenHealth`, `equipment_id`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`) VALUES (38508, 14914, 14915, 14916, 0, 38121, 31107, 31163, 31164, 0, 'Blood Beast', '', '', 0, 82, 82, 100096, 100096, 0, 0, 10356, 2212, 2212, 0, 1, 0.857143, 1, 1, 488, 642, 0, 782, 7.5, 1000, 2000, 1, 32768, 0, 0, 0, 0, 0, 0, 363, 521, 136, 1, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72176, 72723, 21150, 0, 0, 0, 0, '', 0, 3, 7.425, 1, 0, 0, 0, 0, 0, 0, 0, 100, 1, 0, 0, 0, 'mob_blood_beast');
+
+#saufang 10 player loot table
+
+DELETE FROM `creature_loot_template` WHERE (`entry`=37813);
+INSERT INTO `creature_loot_template` VALUES 
+(37813, 49426, 100, 0, 2, 2, 0, 0, 0),
+(37813, 50807, 7, 1, 1, 1, 0, 0, 0),
+(37813, 50804, 10, 1, 1, 1, 0, 0, 0),
+(37813, 50799, 9, 1, 1, 1, 0, 0, 0),
+(37813, 50806, 7, 1, 1, 1, 0, 0, 0),
+(37813, 50800, 9, 1, 1, 1, 0, 0, 0),
+(37813, 50801, 9, 1, 1, 1, 0, 0, 0),
+(37813, 50802, 2, 1, 1, 1, 0, 0, 0),
+(37813, 50808, 7, 1, 1, 1, 0, 0, 0),
+(37813, 50809, 13, 1, 1, 1, 0, 0, 0),
+(37813, 50803, 11, 1, 1, 1, 0, 0, 0),
+(37813, 50798, 17, 1, 1, 1, 0, 0, 0),
+(37813, 50805, 7, 1, 1, 1, 0, 0, 0);
