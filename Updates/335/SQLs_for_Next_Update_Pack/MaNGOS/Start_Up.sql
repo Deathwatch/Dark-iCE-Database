@@ -51,3 +51,6 @@ UPDATE `creature_template` SET `ScriptName`='npc_jack_adams' WHERE `entry`=24788
 UPDATE `creature_template` SET `ScriptName`='npc_spectral_warden' WHERE `entry`=36666;
 UPDATE `creature_template` SET `ScriptName`='boss_forgemaster_gafrost' WHERE `entry`=36494;
 UPDATE `creature_template` SET `ScriptName`='mob_amanitars_mushroom' WHERE `entry` IN(30435,30391);
+
+# All of thesse was removed by mangos, no idea why they are back...look at 10044_02_mangos_spell_proc_event
+DELETE FROM `spell_proc_event` WHERE `entry` IN(47203,47202,47205,47201,16198,16196,47204);
