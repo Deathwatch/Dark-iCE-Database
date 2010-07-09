@@ -54,3 +54,5 @@ UPDATE `creature_template` SET `ScriptName`='mob_amanitars_mushroom' WHERE `entr
 
 # All of thesse was removed by mangos, no idea why they are back...look at 10044_02_mangos_spell_proc_event
 DELETE FROM `spell_proc_event` WHERE `entry` IN(47203,47202,47205,47201,16198,16196,47204);
+
+UPDATE creature_template SET `difficulty_entry_1`=0 WHERE `entry` IN(30660,30893);
