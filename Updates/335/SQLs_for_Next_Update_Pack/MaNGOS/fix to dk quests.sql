@@ -139,4 +139,26 @@ INSERT INTO `creature_ai_scripts` VALUES
 DELETE FROM `creature_template` WHERE (`entry`=29150);
 INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `modelid_A`, `modelid_A2`, `modelid_H`, `modelid_H2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `minhealth`, `maxhealth`, `minmana`, `maxmana`, `armor`, `faction_A`, `faction_H`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `mindmg`, `maxdmg`, `dmgschool`, `attackpower`, `dmg_multiplier`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `dynamicflags`, `family`, `trainer_type`, `trainer_spell`, `trainer_class`, `trainer_race`, `minrangedmg`, `maxrangedmg`, `rangedattackpower`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `resistance1`, `resistance2`, `resistance3`, `resistance4`, `resistance5`, `resistance6`, `spell1`, `spell2`, `spell3`, `spell4`, `PetSpellDataId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `InhabitType`, `unk16`, `unk17`, `RacialLeader`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `movementId`, `RegenHealth`, `equipment_id`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`) VALUES (29150, 0, 0, 0, 0, 0, 25911, 0, 25913, 0, 'Scarlet Soldier Proxy', '', '', 0, 1, 1, 1, 1, 0, 0, 17, 35, 35, 0, 0, 0, 1, 1, 162, 162, 0, 75, 2, 2000, 2000, 1, 4, 8, 0, 0, 0, 0, 0, 130, 130, 60, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, '');
 
-#
+#Thrall quest data updated which also wraps up the death knight starting area
+
+DELETE FROM creature_involvedrelation WHERE id=4949;
+INSERT INTO creature_involvedrelation VALUES
+(4949,4941),
+(4949,4974),
+(4949,5726),
+(4949,5727),
+(4949,5728),
+(4949,5730),
+(4949,9626),
+(4949,9813),
+(4949,9438),
+(4949,8485),
+(4949,4002),
+(4949,7783),
+(4949,4004),
+(4949,4001),
+(4949,6566),
+(4949,10175),
+(4949,13189);
+UPDATE creature_template SET npcflag=2 WHERE entry=3057;
+
